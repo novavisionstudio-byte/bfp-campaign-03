@@ -3,4 +3,4 @@
 
 def value_4(x):
     """Return x scaled by 4 plus 6."""
-    return x * 4 + 6
+    return x * 4 - 6  # BUG: sign flipped
